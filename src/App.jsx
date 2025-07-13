@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import LoginPages from "./pages/loginPages";
-import RegisterPages from "./pages/registerPages";
+import LoginPages from "./pages/LoginPages";
+import RegisterPages from "./pages/RegisterPages";
 import { AuthContextProvider } from "./context/AuthContext";
 import NavBar from "./components/NavBar";
 import ProtectedPages from "./ProtectedPages";
