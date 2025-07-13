@@ -6,7 +6,7 @@ import ButtonDelete from "../components/ButtonDelete";
 import ButtonCreate from "../components/ButtonCreate";
 import ButtonCopy from "../components/ButtonCopy";
 import { Separator } from "../components/ui/separator";
-import { API_URL } from "../config";
+import API_URL from "@/config";
 
 // Función para formatear la fecha de manera legible
 const formatDate = (dateString) => {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 import CopyCheckIcon from "./icons/CopyCheckIcon";
-import { API_URL } from "../config";
+import API_URL from "@/config";
 
 export default function ButtonCopy({ url }) {
   const [isCopied, setIsCopied] = useState(false);

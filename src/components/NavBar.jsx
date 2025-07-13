@@ -25,7 +25,11 @@ function NavBar() {
       <nav className="flex gap-5 items-center font-semibold">
         <GithubIcon />
         <ModeToggle />
-        {logout && (
+        {logout ? (
+          <Button onClick={() => navigate("/login")} className="cursor-pointer">
+            Iniciar sesión
+          </Button>
+        ) : (
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" size="icon">

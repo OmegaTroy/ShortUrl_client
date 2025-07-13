@@ -25,7 +25,6 @@ export default function LoginPages() {
 
   const onSubmit = async (data) => {
     try {
-      console.log("Login data:", data);
       await signIn(data);
       navigate("/");
     } catch (error) {
